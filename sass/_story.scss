@@ -3,8 +3,8 @@
         background-color: $color-primary;
         grid-column: full-start / col-end 4;
         display: grid;
-        background-image: 
-            linear-gradient(rgba($color-primary,.5),rgba($color-primary,.4) ),url('../img/back.jpg'); 
+        background-image: url('../img/back.jpg'); 
+    
         grid-template-rows: repeat(6,1fr);
         grid-template-columns: repeat(6,1fr);
         align-items: center;
